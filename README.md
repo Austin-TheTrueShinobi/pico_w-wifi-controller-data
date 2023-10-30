@@ -1,4 +1,3 @@
-```makefile
 # Makefile for pico_w-wifi-controller-data project
 
 # Project Description:
@@ -64,7 +63,6 @@ help:
 	@echo "  udp        - Build UDP components"
 	@echo "  clean      - Clean built components"
 	can dynamically grab first available IPV4: ip4addr_ntoa(netif_ip4_addr(netif_list)), TCP_PORT)
-```
 
 Notes:
 - Each component (Bluetooth, TCP, and UDP) has its own target, allowing you to build specific components individually.
