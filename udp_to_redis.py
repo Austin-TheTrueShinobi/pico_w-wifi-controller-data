@@ -8,7 +8,7 @@ redis_db = 0               # Redis database index
 
 # UDP server setup
 udp_host = '0.0.0.0'      # Listen on all available interfaces
-udp_port = 4242            # UDP port to listen on
+udp_port = 4444            # UDP port to listen on
 buffer_size = 1024         # Size of the receive buffer
 
 # Create a UDP socket
