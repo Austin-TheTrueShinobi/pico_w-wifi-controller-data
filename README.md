@@ -1,4 +1,4 @@
-# Makefile for pico_w-wifi-controller-data project
+# Project for utilizing communication protocols on the Pico-W
 
 **Project Description:**
 
