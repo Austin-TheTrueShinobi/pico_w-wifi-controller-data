@@ -68,4 +68,4 @@ help:
 **Additional Notes:**
 
 - You can dynamically grab the first available IPV4 using: `ip4addr_ntoa(netif_ip4_addr(netif_list)), TCP_PORT)`
-- Controller wireless access command: `cmake -DPICO_BOARD=pico_w -DWIFI_SSID="RPcontroller" -DWIFI_PASSWORD="RPcontroller" ..`
+- Controller wireless access command: `cmake -DPICO_BOARD=pico_w -DWIFI_SSID="raspi-webgui" -DWIFI_PASSWORD="ChangeMe" ..`
