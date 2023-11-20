@@ -13,6 +13,9 @@ buffer_size = 1024         # Size of the receive buffer
 
 # Create a UDP socket
 udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+# Allow the socket to be reused to avoid port conflictions
+udp_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 udp_socket.bind((udp_host, udp_port))
 
 # Create the required redis keys
